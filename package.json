@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "day": "ts-node src/index.ts",
+    "watch": "nodemon --watch src -e ts --exec ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
